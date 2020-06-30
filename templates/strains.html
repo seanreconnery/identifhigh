@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="IdentifHIGH" />
+  <meta property="og:url" content="https://www.identifhigh.com" />
+  <meta property="og:image" content="/identifhigh/static/img/logo.jpg" />
+  <meta property="og:description" content="Marijuana Mood Matcher; Strain Selection Streamliner" />
+  <meta property="og:site_name" content="IdentifHIGH" />  
+  
+  
+  <title>Identif-HIGH  |  Marijuana Mood Matcher  |  Strain Selection Streamliner </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://letshavealittle.fun/identifhigh/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="https://letshavealittle.fun/identifhigh/static/css/modern-business.css" rel="stylesheet">
+
+  <!-- ROCK SALT FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black fixed-top handwriting">
+    <div class="container">
+      <a class="navbar-brand" href="https://letshavealittle.fun/identifhigh/"><img src="https://letshavealittle.fun/identifhigh/static/img/logo.jpg" border="0" /></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item bigger-nav addpad">
+            <a class="nav-link" href="https://letshavealittle.fun/identifhigh/">Home</a>
+          </li>
+
+          <li class="nav-item dropdown bigger-nav addpad">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strains
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item bigger-nav" href="https://letshavealittle.fun/identifhigh/allofthem">All strains</a>
+              <a class="dropdown-item bigger-nav" href="https://letshavealittle.fun/identifhigh/sativa">Sativa</a>
+              <a class="dropdown-item bigger-nav" href="https://letshavealittle.fun/identifhigh/hybrid">Hybrid</a>
+              <a class="dropdown-item bigger-nav" href="https://letshavealittle.fun/identifhigh/indica">Indica</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item bigger-nav addpad">
+            <a class="nav-link" href="https://letshavealittle.fun/identifhigh/search">Search..</a>
+          </li>
+
+          <li class="nav-item bigger-nav addpad">
+            <a class="nav-link" href="https://letshavealittle.fun/identifhigh/about">About</a>
+          </li>
+
+          <li class="nav-item bigger-nav addpad">
+            <a class="nav-link" href="https://letshavealittle.fun/identifhigh/contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="addspace">
+
+</div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3 handwriting faded"><b>All Strains</b>
+
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html" class="handwriting"><b>Home</b></a>
+      </li>
+      <li class="breadcrumb-item active handwriting"><b>Strains</b></li>
+    </ol>
+
+    <div class="row">
+
+      {% block strainItem %}
+        {{ strains }}
+      {% endblock %}
+
+    </div>
+
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark fixed-bottom">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; <b><em>Identif</em>-HIGH</b> 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://letshavealittle.fun/identifhigh/static/vendor/jquery/jquery.min.js"></script>
+  <script src="https://letshavealittle.fun/identifhigh/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

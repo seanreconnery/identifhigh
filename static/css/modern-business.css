@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.handwriting {
+    font-family: 'Rock Salt', cursive;
+}
+
+.addpad {
+    padding-right: 25px;
+}
+
+.addspace {
+    padding-top: 120px;
+}
+
+.search-pad {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.strain-sativa {
+
+}
+
+
+.strain-hybrid {
+
+}
+
+
+.strain-indica {
+
+}
+
+.bigger-nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-pos {
+    background: rgba(71,255,197,.5);
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+.search-med {
+    background: rgba(222,255,111,.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.center-items {
+    text-align: center;
+
+}
+.search-pad {
+    padding: 1rem;
+}
+
+.faded {
+    color: rgba(77,77,77,.37);
+}
+
+.yellow-text {
+    color: rgba(237,237,77,.99);
+}
+
+.white-fade {
+    background-color: rgba(190,255,207,.27);
+    border-radius: 40px;
+}
